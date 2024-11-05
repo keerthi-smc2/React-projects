@@ -1,0 +1,88 @@
+/* Pro-1 */
+.pro-1  {
+  width: 750px;
+  height: 550px;
+}
+.accordian {
+  margin-top: 37px;
+    width: 649px;
+    padding-left: 67px;
+  /* padding-right: 20px; */
+}
+.accordian_item {
+  border: 1px solid red;
+  padding: 10px;
+}
+.accordian_title {
+   display: flex;
+   align-items: center;
+   gap: 20px;
+   /* padding-bottom: 30px; */
+}
+.accordian_title h3 {
+  flex: 1;
+  font-size: 18px;
+  font-weight: bold;
+}
+.accordian_title i {
+  font-size: 20px;
+}
+.accordian-content {
+  display: none;
+}
+.accordian_title.active + .accordian-content{
+    display: block;
+    padding-top: 10px;
+}
+.accordian-content p {
+   font-size: 15px;
+   color: rgb(81, 141, 209)
+}
+.accordian_title.active i {
+  transform: rotate(180deg);
+}
+.accordian_title.active {
+  border-bottom: 2px solid rgb(34, 33, 33);
+}
+
+/* pro-2 */
+.pro-2 {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  /* width: 500px; */
+  align-content: center;
+  /* padding-left: 20px; */
+}
+.random-color-generator-container {
+  display: flex;
+  gap: 30px;
+  /* width: 800px; */
+
+}
+
+.hex-color-container button {
+  padding: 10px 10px;
+  cursor: pointer;
+  font-size: 15px;
+  font-weight: bold;
+  background-color: rgb(141, 184, 40);
+}
+.rgb-color-container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px
+}
+.hex-color-container {
+  background-color: green;
+  width:500px;
+  height: 300px;
+  /* display: flex;
+  justify-content: center;
+  align-items: center; */
+
+}
+.rgb-color-container {
+  background-color: red;
+  width:500px;
+  height: 300px;
+}
